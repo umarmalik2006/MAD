@@ -1,23 +1,22 @@
-name: flutter_application
-description: A simple todo app using Provider
-publish_to: 'none' # Prevents accidental publishing to pub.dev
+name: shopping_cart_getx
+description: A simple shopping cart app using GetX for state management.
+publish_to: "none"
 
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.18.0 <4.0.0"
+  sdk: ">=2.19.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  provider: ^6.1.1
-
-  # Add other dependencies here if needed
+  get: ^4.6.6
+  
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.1
+  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
