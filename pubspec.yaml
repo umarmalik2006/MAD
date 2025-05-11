@@ -1,22 +1,22 @@
-name: shopping_cart_getx
-description: A simple shopping cart app using GetX for state management.
-publish_to: "none"
+name: crud_flutter_app
+description: A Flutter CRUD app example
 
 version: 1.0.0+1
 
+# Add SDK version constraints in the environment section
 environment:
-  sdk: ">=2.19.0 <4.0.0"
+  sdk: ">=3.7.0 <4.0.0"  # Adjust according to your installed Dart SDK version
 
 dependencies:
   flutter:
     sdk: flutter
-  get: ^4.6.6
-  
+
+  http: 1.4.0
+  provider: ^6.1.3
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
 
 flutter:
-  uses-material-design: true
+  assets: []
